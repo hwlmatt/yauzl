@@ -1,3 +1,9 @@
+## A quick fork to use nalhabash's updated fd-slicer2 as a replacement dependency.
+basically just aliasing it in the package.json to avoid worrying about where it's required. like so:
+````json
+"dependencies": {
+    "fd-slicer": "npm:fd-slicer2",
+````
 # yauzl
 
 [![Build Status](https://travis-ci.org/thejoshwolfe/yauzl.svg?branch=master)](https://travis-ci.org/thejoshwolfe/yauzl)
